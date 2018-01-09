@@ -1,0 +1,34 @@
+{
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "name": "movie_qq_new",
+  "description": "手Q重构版本",
+  "license": "MIT",
+  "authors": [
+      {
+      "name": "US team",
+      "email": "us@wepiao.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "nikic/fast-route": "^1.0",
+      "pkpass/pkpass": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "" : "system/",
+      "app\\" : "app/"
+    },
+    "files": [
+      "system/functions.php"
+    ]
+  },
+  "repositories": {
+      "packagist": {
+          "type": "composer",
+          "url": "https://packagist.phpcomposer.com"
+      }
+  }
+}
